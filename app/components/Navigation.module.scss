@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3366ff;
+    padding: 1rem 2rem;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navLinks li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .navLinks li a:hover {
+    text-decoration: underline;
+  }
+  
+  .profileIcon img {
+    height: 40px;
+    border-radius: 50%;
+  }
